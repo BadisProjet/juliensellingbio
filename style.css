@@ -1,0 +1,102 @@
+body {
+    background: linear-gradient(120deg, #6122ff, #cfbcff);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+}
+
+@keyframes gradientScroll {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(153, 0, 158, 0.5);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero-section {
+    position: relative;
+    margin: 20px 0;
+    height: 400px;
+    background: url('julienhaut.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    padding: 20px;
+}
+
+.hero-section h2 {
+    margin: 0 0 10px;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.hero-section p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.bg-fomauve {
+    background-color: #912a916a;
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+form label {display: inline-block; width: 100px;}
+form input[type="radio"] {margin-bottom: 15px;}
+form input[type="email"], 
+form input[type="text"]
+form select{width:175px; margin-bottom:15px;}
+form textarea {width:500px; height:100px}
+form input[type="submit"],
+form input[type="reset"] 
+{background-color: rgb(91, 166, 17); 
+                        border-radius:5px;
+                        color: whitesmoke;}
+form input[type="reset"]{background-color:rgb(140, 31, 31)}
+
+footer {
+    margin-top: 40px;
+    background: rgba(153, 0, 158, 0.5);
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+}
